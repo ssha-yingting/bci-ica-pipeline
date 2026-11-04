@@ -1,0 +1,33 @@
+# ---------- 数据：绝不提交 ----------
+*.fif
+*.edf
+*.bdf
+*.set
+*.vhdr
+*.eeg
+data/
+raw/
+output/
+cache/
+**/cache_dir/
+**/output/
+**/raw_preproc.fif
+**/ica.fif
+**/ic_features.csv
+**/iclabel.json
+
+# ---------- 模型：建议让对方 --retrain，不传 ----------
+*.joblib
+
+# ---------- Python 杂物 ----------
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# ---------- 系统杂物 ----------
+.DS_Store
+Thumbs.db
